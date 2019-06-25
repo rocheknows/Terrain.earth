@@ -70,33 +70,103 @@ margin: 0px 0px 0px 0px;
   font-family: aktiv-grotesk, sans-serif;
   font-size: 30px;
   font-weight: 400;
-  font-style: italic;
+  /*/font-style: italic;/*/
   display: block;
   padding: 10px 4px 4px 4px;
+
+}
+.ref{
+  font-family: aktiv-grotesk, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  /*/font-style: italic;/*/
+  display: block;
+  padding: 10px 4px 4px 4px;
+
+
 }
 
 #mc_embed_signup{
-  font-size: 20px;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-/*/  background-color: #fff;/*/
-  width: 100%;
-  box-sizing: border-box;
+  font-size: 28px;
+  font-family: aktiv-grotesk-extended, sans-serif;
+  /*/background-color: #fff;/*/
+  width: 50%;
+  margin-right:20%;
+  /*/box-sizing: border-box;
+  border-radius: 100% 100%;
+  background-color: #00FF07;
+  box-shadow: 300px 200px 300px 200px #00FF07;/*/
+  box-sizing: content-box;
+  z-index: 3;
+
 }
 
 #mc_embed_signup_scroll{
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 28px;
+  border-width: 3px;
+  border-color: black;
+/*/  background-color: #fff;/*/
+  padding: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
+  margin-right:20%;
   box-sizing: border-box;
-  font-size: 20px;
-  font-family: aktiv-grotesk, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-  /*/background-color: #fff;/*/
-  width: 100%;
-  box-sizing: border-box;
+}
+#mc_embed_signup input.email {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-size: 30px;
+  border-width: 3px;
+  border-color: black;
+/*/  background-color: #fff;/*/
+  padding: 2px;
+  width: 140%;
+  display: flex;
+  flex-direction: column;
+  margin-right:20%;
+  margin-top: 10px;
+
+  }
+  #mc_embed_signup input.submit {
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-size: 28px;
+    border-width: 3px;
+    border-color: black;
+    /*/background-color: #fff;/*/
+    padding: 2px;
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    margin-right:20%;
+    margin-top: 10px;
+}
+    #mc_embed_signup input.firstname {
+      font-family: aktiv-grotesk-extended, sans-serif;
+      font-size: 28px;
+      border-width: 3px;
+      border-color: black;
+      /*/background-color: #fff;/*/
+      padding: 2px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-right:20%;
+      margin-top: 10px;
+    }
+    #mc_embed_signup input.lastname {
+      font-family: aktiv-grotesk-extended, sans-serif;
+      font-size: 28px;
+      border-width: 3px;
+      border-color: black;
+      /*/background-color: #fff;/*/
+      padding: 2px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin-right:20%;
+      margin-top: 10px;
+}
 }
 
 .email{
@@ -115,10 +185,11 @@ margin: 0px 0px 0px 0px;
   text-transform: uppercase;
   font-size: 30px;
   box-shadow: 0px 0px 0px transparent;
-  border-width: 3px 3px 3px 0px;
+  border-width: 3px 3px 3px 3px;
   text-shadow: 0px 0px 0px transparent;
   border-color: black;
   padding: 2px;
+  margin-top: 40px;
   width: 100%;
 }
 .button:hover{
@@ -129,10 +200,11 @@ margin: 0px 0px 0px 0px;
 
 .right{
   margin: 0px 10% 150px 10%;
+  align-items: center;
   max-width: 800px;
 }
 
-.scroll{
+.footer{
   font-family: aktiv-grotesk-extended, sans-serif;
   background-color: #00FF07;
   color: #000;
@@ -143,7 +215,7 @@ margin: 0px 0px 0px 0px;
   bottom: 0px;
   left: 0px;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
 }
 
 .scroll2{
@@ -157,7 +229,7 @@ margin: 0px 0px 0px 0px;
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 2;
+  z-index: 5;
 }
 
 .circle{
@@ -170,6 +242,14 @@ margin: 0px 0px 0px 0px;
   z-index: 3;
 }
 
+.earth{
+
+  top: 450px;
+  right: 25%;
+  margin: 25% 25%;
+  z-index: 1;
+
+}
 @media (min-width: 1024px) {
 
 
@@ -190,7 +270,7 @@ margin: 0px 0px 0px 0px;
     .text{
       font-family: aktiv-grotesk, sans-serif;
       font-weight: 400;
-      font-style: italic;
+      /*/font-style: italic;/*/
       font-size: 36px;
       display: block;
       padding: 10px 4px 4px 4px;
@@ -198,7 +278,7 @@ margin: 0px 0px 0px 0px;
       width: 50%;
       padding: 10px 0px 0px 0px;
     }
-/*/
+
     .circle{
        width: 0px;
        height: 0px;
@@ -208,19 +288,19 @@ margin: 0px 0px 0px 0px;
        border-radius: 100% 50%;
        background-color: #00FF07;
        box-shadow: 300px 300px 300px 300px #00FF07;
-       z-index: 3;
-    }/*/
+       z-index: 0;
+    }
     #mc_embed_signup{
       font-size: 28px;
       font-family: aktiv-grotesk-extended, sans-serif;
       /*/background-color: #fff;/*/
       width: 130%;
       margin-right:20%;
-      box-sizing: border-box;
+      /*/box-sizing: border-box;
       border-radius: 100% 100%;
       background-color: #00FF07;
       box-shadow: 300px 200px 300px 200px #00FF07;
-      box-sizing: content-box;
+      box-sizing: content-box;/*/
       z-index: 3;
 
     }
@@ -249,7 +329,7 @@ margin: 0px 0px 0px 0px;
       display: flex;
       flex-direction: column;
       margin-right:20%;
-      margin-top: 40px;
+      margin-top: 10px;
 
       }
       #mc_embed_signup input.submit {
@@ -263,9 +343,34 @@ margin: 0px 0px 0px 0px;
         display: flex;
         flex-direction: row;
         margin-right:20%;
-        margin-top: 40px;
+        margin-top: 10px;
 }
-
+        #mc_embed_signup input.firstname {
+          font-family: aktiv-grotesk-extended, sans-serif;
+          font-size: 28px;
+          border-width: 3px;
+          border-color: black;
+          /*/background-color: #fff;/*/
+          padding: 2px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin-right:20%;
+          margin-top: 10px;
+        }
+        #mc_embed_signup input.lastname {
+          font-family: aktiv-grotesk-extended, sans-serif;
+          font-size: 28px;
+          border-width: 3px;
+          border-color: black;
+          /*/background-color: #fff;/*/
+          padding: 2px;
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          margin-right:20%;
+          margin-top: 10px;
+}
     .button{
       font-family: aktiv-grotesk-extended, sans-serif;
       font-size: 30px;
@@ -275,11 +380,11 @@ margin: 0px 0px 0px 0px;
       border-color: black;
       background-color: #fff;
       padding: 2px;
-      width: 69%;
+      width: 80%;
       display: flex;
       flex-direction: row;
       margin-right:20%;
-      margin-top: 4px;
+      margin-top: 25px;
     }
 
     .email{
@@ -293,5 +398,16 @@ margin: 0px 0px 0px 0px;
       flex-direction: row;
       margin-right:20%;
       margin-top: 40px;
+    }
+
+    .earth{
+
+      float: right;
+      position: fixed;
+      top: 450px;
+      right: 60px;
+      margin: 50px 50px;
+      z-index: 1;
+
     }
   }
