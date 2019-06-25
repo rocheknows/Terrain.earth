@@ -53,7 +53,6 @@ margin: 0px 0px 0px 0px;
   font-weight: 400;
   font-style: normal;
   font-size: 50px;
-  text-transform: uppercase;
   width: 100%;
   padding: 0px 0px 4px 4px;
 }
@@ -243,7 +242,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .earth{
-
   top: 450px;
   right: 25%;
   margin: 25% 25%;
