@@ -1,17 +1,14 @@
-@font-face {
-font-family: "Space Grotesk";
-url("fonts/Space-Grotesk-Regular.woff") format("woff");
-url("fonts/Space-Grotesk-Regular.woff2") format("woff2")
-url("fonts/Space-Grotesk-Regular.oft") format("oft")
-url("fonts/Space-Grotesk-Regular.ttf") format("transition-timing-function: ")
-}
-
 *{
   margin: 0px;
   padding: 0px;
   cursor: url(images/cursor.png), crosshair;
 }
 
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 a{
   text-decoration-style: none;
   text-decoration: none;
@@ -33,7 +30,7 @@ html, body{
 }
 
 .left{
-margin: 0px 0px 0px 0px;
+margin: 1px 1px 1px 1px;
 }
 
 .nav{
@@ -42,7 +39,6 @@ margin: 0px 0px 0px 0px;
   border-bottom-style: solid;
   border-bottom-color: black;
   border-bottom-width: 4px;
-  bo
   z-index: 1;
   margin: 40px 0px 3px 0px;
 }
@@ -60,29 +56,22 @@ margin: 0px 0px 0px 0px;
 .social{
   font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 400;
-  font-style: italic;
   font-size: 50px;
   margin: -6px 8px 5px 0px;
 }
 
 .text{
-  font-family: aktiv-grotesk, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   font-weight: 400;
-  /*/font-style: italic;/*/
-  display: block;
+  font-style: normal;
   padding: 10px 4px 4px 4px;
-
 }
 .ref{
-  font-family: aktiv-grotesk, sans-serif;
   font-size: 20px;
   font-weight: 400;
-  /*/font-style: italic;/*/
   display: block;
   padding: 10px 4px 4px 4px;
-
-
 }
 
 #mc_embed_signup{
@@ -166,7 +155,7 @@ margin: 0px 0px 0px 0px;
       margin-right:20%;
       margin-top: 10px;
 }
-}
+
 
 .email{
   font-family: aktiv-grotesk-extended, sans-serif;
@@ -178,8 +167,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .button{
-  webkit-filter: blur(1.3px); /* Chrome, Safari, Opera */
-  filter: blur(1.3px);
   font-family: aktiv-grotesk, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
@@ -191,11 +178,10 @@ margin: 0px 0px 0px 0px;
   margin-top: 40px;
   width: 100%;
 }
-.button:hover{
-  webkit-filter: blur(0px); /* Chrome, Safari, Opera */
-  filter: blur(0px);
-}
 
+.button:hover{
+  font-style: italic;
+}
 
 .right{
   margin: 0px 10% 150px 10%;
@@ -266,9 +252,8 @@ margin: 0px 0px 0px 0px;
     }
 
     .text{
-      font-family: aktiv-grotesk, sans-serif;
+      font-family: Arial, Helvetica, sans-serif;
       font-weight: 400;
-      /*/font-style: italic;/*/
       font-size: 36px;
       display: block;
       padding: 10px 4px 4px 4px;
@@ -308,7 +293,7 @@ margin: 0px 0px 0px 0px;
       font-size: 28px;
       border-width: 3px;
       border-color: black;
-    /*/  background-color: #fff;/*/
+    
       padding: 2px;
       display: flex;
       flex-direction: column;
@@ -399,7 +384,6 @@ margin: 0px 0px 0px 0px;
     }
 
     .earth{
-
       float: right;
       position: fixed;
       top: 450px;
